@@ -2,11 +2,27 @@
 	register username/password
 	new repository -> repository name -> create repository -> https://github.com/qizhonglin/doc.git
 2. local Git
-	GitHub $ git clone https://github.com/qizhonglin/doc.git
+	// clone, by default, origin == https://github.com/qizhonglin/doc.git
+	GitHub $ git clone https://github.com/qizhonglin/doc.git		
 	GitHub $ cd doc
 	CRUD files inside GitHub/doc
 	GitHub/doc (master) $ git status			
 	GitHub/doc (master) $ git add .
 	GitHub/doc (master) $ git commit
-	GitHub/doc (master) $ git log
-	GitHub/doc (master) $ git push		(requires your username and password)
+	GitHub/doc (master) $ git log		// history log before current status
+	
+	// check in, git push -u origin master
+	GitHub/doc (master) $ git push									
+	
+	GitHub/doc (master) $ git branch new-branch		//create new branch
+	GitHub/doc (master) $ git checkout new-branch	// switch to new branch
+	GitHub/doc (new-branch) $ git reflog			// action log of current repository
+	GitHub/doc (new-branch) $ git checkout master
+	GitHub/doc (master) $ git merge --no-ff new-branch	// merge
+	GitHub/doc (master) $ git reset --hard fd0cbf0		// reset to selected version, fd0... is hash
+	
+	GitHub/doc (master) $ git branch			// list local branch
+	GitHub/doc (master) $ git branch -a 		// list local and remote branch
+	
+	// check out, git pull origin master
+	GitHub/doc (master) $ git pull 
