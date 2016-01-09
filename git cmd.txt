@@ -1,0 +1,12 @@
+1. Remote Git
+	register username/password
+	new repository -> repository name -> create repository -> https://github.com/qizhonglin/doc.git
+2. local Git
+	GitHub $ git clone https://github.com/qizhonglin/doc.git
+	GitHub $ cd doc
+	CRUD files inside GitHub/doc
+	GitHub/doc (master) $ git status			
+	GitHub/doc (master) $ git add .
+	GitHub/doc (master) $ git commit
+	GitHub/doc (master) $ git log
+	GitHub/doc (master) $ git push		(requires your username and password)
