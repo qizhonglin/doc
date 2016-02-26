@@ -26,3 +26,11 @@
 	
 	// check out, git pull origin master
 	GitHub/doc (master) $ git pull 
+	
+	
+Tool: GitHub Desktop	
+a. Install GitHub Desktop
+	username and password
+b. Autenticate GitHub
+	if behind a proxy server, 
+>git config --global http.proxy http://YOUR_PROXY_USERNAME:YOUR_PROXY_PASSWORD@YOUR.PROXY.SERVER:8080
