@@ -1,3 +1,4 @@
+<GitHub 入门>
 1. Remote Git
 	register username/password
 	new repository -> repository name -> create repository -> https://github.com/qizhonglin/doc.git
@@ -9,7 +10,8 @@
 	GitHub/doc (master) $ git status			
 	GitHub/doc (master) $ git add .
 	GitHub/doc (master) $ git commit
-	GitHub/doc (master) $ git log		// history log before current status
+	GitHub/doc (master) $ git log		// history log before current status, 如果很长，按q退出
+	GitHub/doc (master) $ git show	9da...	//查看特定提交的详细信息,若无提交码，只显示最近一次提交的详细信息
 	
 	// check in, git push -u origin master
 	GitHub/doc (master) $ git push									
@@ -34,3 +36,48 @@ a. Install GitHub Desktop
 b. Autenticate GitHub
 	if behind a proxy server, 
 >git config --global http.proxy http://YOUR_PROXY_USERNAME:YOUR_PROXY_PASSWORD@YOUR.PROXY.SERVER:8080
+
+<Git版本控制管理>
+开发以及维护开发出来的代码，方便读取代码的历史版本、记录所有的修改。
+分布式开发：允许并行开发，各人可以在自己的版本库中独立且同时地开发，而不需要与一个中心版本库时刻同步（因为这样会造成开发瓶颈）
+CVS给予每个开发人员对于自己的私有版本写的权限，因此，不同开发人员的改动可以自动合并，除非两个开发人员尝试修改同一行。如果出现修改同一行的情况，那这一行将会作为“冲突”被标记出来，由开发人员手动去解决。
+Git Bash/Gui
+Git是作为一套简单的、独特的、独立的命令提供的，并按照“UNIX"工具包的哲学来开发的：打造小的、可互操作的工具。
+GNU风格：git commit -m "..." 			等价于	git commit --message="..."
+$ git		//列出选项和最常用的子命令
+$ git help --all
+$ git config --global user.name "QiZhong Lin"		//配置git用户名和邮箱
+$ git config --global user.email "qizhong.liin@philips.com"		
+$ git config --unset --global user.email			//移除设置
+
+建立Git版本库：1.从头开始创建，用现有的内容填充它。2.clone已有的版本库
+$ mkdir public_html && cd public_html
+public_html$ git init		//将目录转化为Git版本库
+为了显示目录是一个Git版本库，git init命令创建了一个隐藏目录，在项目的顶层目录，名为.git而CVS和SVN则将修订版信息放在项目的每一个目录下的CVS和.svn子目录里，Git把所有修订信息都放在这唯一的顶层.git目录里。
+$ git add .		//把当前目录及子目录中的文件都添加到版本库里。
+$ git commit	-m "..."	//add and commit步聚分开，是为了避免频繁变化
+$ git show-branch --more=10		//显示当前开发分支简洁的单行摘要
+$ git diff 
+$ ls 		//显示所有文件和文件夹
+// 删除文件和， 和添加操作一样，删除操作也需要两步：git rm表示你想要删除这个文件的意图并暂存这个变更，接着git commit在版本库里实现这个变更。
+$ git rm poem.html
+$ git commit -m "Remove a poem"
+// 文件改名
+$ git mv foo.html bar.html
+$ git commit -m "Moved foo to bar"
+
+版本库的配置文件： .git/config
+用户特定的配置文件: ~/.gitconfig		可用--global选项修改
+$ git config -l		//列出所有的配置参数
+$ cat .git/config		//查看版本库的配置文件内容
+$ find .git/objects		//查找指定目录下的文件
+
+Git版本库只是一个简单的数据库，其中包含所有用来维护与管理项目的修订版本和历史信息。Git在每个版本库里维护一组配置值。版本库的用户和email地址。Git对每个网站、每个用户和每个版本库的配置和设置信息都进行管理和检查。在版本库中，Git维护两个主要的数据结构：对象库(boject store)和索引(index).所有这些版本库数据存放在工作目录根目录下一个名为.git的隐藏子目录中。
+对象库在复制操作的时候能进行有效复制，这也是用来支持完全分布式VCS的一种技术。对象库是Git版本库实现的心脏。它包含你的原始数据文件和所有日志消息、作者信息、日期，以及其化用来重建项目任意版本或分支的信息。
+索引是暂时的信息，对版本库来说是私有的，并且可以在需要的时候按需求进行创建和修改。
+在互联网上，文件或者任意大小的blob都可以通过仅比较它们的SHA1标识符来判断是否相同
+Git仅根据文件内容来计算每一个文件的散列码，如果文件有相同的SHA1值，它们的内容就是相同的，然后将这个blob对象放到对象库里，并以SHA1值作为索引。如果这些文件中的一个发生了变化，Git会为它计算一个新SHA1值，识别出它现在是一个不同的blob对象，然后把这个新的blob加到对象库里。原来的blob在对象库里保持不变，为没有变化的文件所使用。
+Git把文件名视为一段区别于文件内容的数据。Git仅仅记录每个路径名，并且确保能通过它的内容精确地重建文件和目录，这些是由散列值来索引的
+Git使用打包文件(pack file)的更有效的存储机制。要创建一个打包文件，Git首先定位内容非常相似的全部文件，然后为它们之一存储整个内容。之后计算相似文件之间的差异并且只存储差异。
+SHA1：安全散列加密算法，3b1..., 160位，20个字节 = 40个字节的十六进制来显示
+散列函数：在数学意义上是一个真正的函数，对于一个给定的输入，它总产生相同的输出。这样的散列函数有时也称为摘要，用来强调它就像散列对象的摘要一样。应用：提供了一种有效的方法来比较两个对象，甚至是两个非常大而复杂的数据结构，而且并不需要完全传输。
