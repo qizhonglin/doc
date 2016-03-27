@@ -1,3 +1,14 @@
+<vim>操作
+1. 光標在屏幕文本中的移動既可以用箭頭鍵
+2. 欲進入vim編輯器(從命令行提示符)，請輸入︰vim 文件名 <回車>
+3. 欲退出vim編輯器，請輸入以下命令放棄所有修改︰
+	<ESC>   :q!	<回車>
+     或者輸入以下命令保存所有修改︰
+	<ESC>   :wq	<回車>
+4. 在正常模式下刪除光標所在位置的字符，請按︰ x
+5. 在正常模式下要在光標所在位置開始插入文本，請按︰
+	i     輸入必要文本	<ESC>
+
 <GitHub 入门>
 1. Remote Git
 	register username/password
