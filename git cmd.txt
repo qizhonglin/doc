@@ -45,6 +45,9 @@
 	在Github先创建repository: https://github.com/qizhonglin/ionic-blank-ex0.git
 	$git remote add origin https://github.com/qizhonglin/ionic-blank-ex0.git
 	$git push origin master
+5. Git pull 强制覆盖本地文件
+	git fetch --all
+	git reset --hard origin/master
 	
 	
 Tool: GitHub Desktop	
