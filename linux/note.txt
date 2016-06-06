@@ -1,0 +1,162 @@
+// 解决ubuntu卡，原因是virtualBox资源分配
+关闭ubuntu
+控制->设置->系统->内存大小，处理器数量，硬件加速，
+控制->设置->显示->显卡->3D,2D加速
+
+// config proxy
+$ gedit ~/.bashrc
+在打开的文件里添加
+export http_proxy=http://165.225.96.34:10015/
+export https_proxy=https://165.225.96.34:10015/
+$ sudo gedit /etc/apt/apt.conf
+Acquire::http::proxy "http://165.225.96.34:10015/";
+Acquire::https::proxy "https://165.225.96.34:10015/";
+$ sudo gedit /etc/environment
+http_proxy=http://165.225.96.34:10015/
+https_proxy=https://165.225.96.34:10015/
+//有时候无法apt-getq
+$sudo gedit /etc/resolvconf/resolv.conf.d/base
+nameserver 8.8.8.8
+nameserver 8.8.4.4
+
+// install chrome
+$ wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
+$ sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+$ sudo apt-get update 
+$ sudo apt-get install google-chrome-stable
+
+// install notepad++
+$ sudo -E add-apt-repository ppa:notepadqq-team/notepadqq
+$ sudo apt-get update
+$ sudo apt-get install notepadqq
+
+//install jdk8 on ubuntu
+open terminal via Ctrl+Alt+T (or search terminal)
+$ sudo add-apt-repository ppa:webupd8team/java 
+(如果无法连接，用sudo -E add-apt-repository ppa:webupd8team/java)
+$ sudo apt-get update
+$ sudo apt-get install oracle-java8-installer
+// verify installed java version
+$ java -version
+// configure java environment
+$ sudo apt-get install oracle-java8-set-default
+
+// install spring tool suite
+$ cd /opt
+$ wget http://....tar.gz
+$ sudo tar -xvf spring-tool-suite...tar.gz
+$ ln -s /opt/sts-bundle/sts-...RELEASE/STS /usr/local/bin/sts
+$ sts
+
+if could not connect to network, please only set http and https, not set socks
+
+
+
+// install gradle
+download gradle
+$sudo unzip <path to gradle-<>-all.zip>/gradle-<>-all.zip -f /opt/gradle
+$ gedit ~/.bashrc
+GRADLE_HOME=<path to gradle bin file>  (e.g. /opt/gradle/gradle-1.5/bin )
+export GRADLE_HOME
+PATH=$PATH:$GRADLE_HOME
+export PATH
+$source ~/.bashrc
+$gradle -version
+
+// delete link
+$ sudo unlink /usr/local/bin/sts
+
+// delete files
+$ sudo rm filename
+
+// delete directory
+$ sudo rm -rf directoryName
+
+// rename directory
+$ sudo mv src dst
+
+// create file
+touch build.gradle
+
+// create directory
+mkdir -p src/main/scala
+
+// install docker
+$ wget -qO- https://get.docker.com/ | sh
+$ sudo reboot
+$ sudo gedit /etc/default/docker
+export HTTP_PROXY="http://161.92.51.225:8080/"
+$ sudo service docker restart
+
+// check port used and kill
+$sudo netstat - tupln | grep 27017	
+$sudo kill -9 914	(914 is the pid to use port 27017)
+
+//install MySQL
+//安装过程会要求输入root用户的密码，所以有user: root, password: qzlin
+$sudo apt-get install mysql-server
+//客户端程序访问MySQL服务器
+$mysql -u root -p	//记得输入root密码
+//操作数据库
+mysql> show databases ; git 
+mysql> use infomation_schema;
+mysql> show tables ; 
+//root授权给用户test_user,密码为test_password使用数据库test_db，有所有权限
+mysql> GRANT ALL on test_db.* to test_user IDENTIFIED by 'test_password';
+mysql> exit;
+
+//install PostgreSQL
+$sudo apt-get install postgresql
+//启动postgresql服务器
+$sudo /etc/init.d/postgresql start
+$sudo /etc/init.d/postgresql stop
+//访问服务器
+$sudo -u postgres psql
+postgres=# \l	显示所有数据库q
+postgres=# CREATE DATABASE test;	创建数据库
+postgres=# \c test		使用(连接)数据库
+
+
+
+// install git
+$sudo apt-get install git-core
+$git --version
+
+//install cURL
+$ sudo apt-get install curl
+
+
+//  install hadoop
+添加JAVA_HOME (查看java安装路径$ update-alternatives --config java)
+
+安装ssh
+ $ sudo apt-get install ssh
+ $ sudo apt-get install rsync
+
+下载并解压hadoop-x.y.z.tar.gz,然后放入到opt目录中
+$sudo mv Documents/hadoop/tools/hadoop-2.7.1 /opt/
+
+设置环境变量
+$gedit ~/.bashrc
+HADOOP_HOME=/opt/hadoop-2.7.1
+PATH=$PATH:$HADOOP_HOME/bin
+export HADOOP_HOME
+export PATH
+$source ~/.bashrc
+
+检查hadoop version
+$ hadoop version
+
+java project
+add *.jar from $HADOOP_HOME/bin/
+mapper.java
+reducer.java
+JobTask.java
+build
+
+project$ export HADOOP_CLASSPATH=bin
+project$ hadoop project input/ncdc/sample.txt output
+
+
+
+
