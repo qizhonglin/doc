@@ -3,6 +3,11 @@
 控制->设置->系统->内存大小，处理器数量，硬件加速，
 控制->设置->显示->显卡->3D,2D加速
 
+打开终端		Ctrl+Alt+T
+Ubuntu桌面入门指南
+https://help.ubuntu.com/
+http://wiki.ubuntu.org.cn/Ubuntu%E6%A1%8C%E9%9D%A2%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97
+
 // config proxy
 $ gedit ~/.bashrc
 在打开的文件里添加
