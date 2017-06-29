@@ -48,7 +48,10 @@
 5. Git pull 强制覆盖本地文件
 	git fetch --all
 	git reset --hard origin/master
-	
+6. push exising Git project to Github
+new repository in Github
+git remote add origin https://github.com/qizhonglin/lirads.git
+git push -u origin master	
 	
 Tool: GitHub Desktop	
 a. Install GitHub Desktop
