@@ -1,0 +1,42 @@
+Object-oriented programming
+	based on the concept of "objects", which may contain data and methods
+	three main features: 
+		Encapsulation	
+			generally, data's access level is private, which means the client can't access, the client can access via public method
+		
+		Reuse via composition or inheritance
+			composition represents "has a "relationships
+			inheritance representas " is a " replationships
+		Polymorphism
+functional programming
+	function is first-class in language, like JavaScript and Python, function can be assigned to variable, pass to function, return from function etc
+	function should be treated as pure mathematical function, avoid changing-state and mutable data
+	"lambda", "map", "reduce", and "filter"
+
+SOLID principle
+Single responsibility principle
+	a class should have only a single responsibility
+Open/clased principle
+	open for extension, but closed for modification.
+Liskov substitution principle
+	¡°objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.¡± 
+Interface segregation principle	
+	¡°many client-specific interfaces are better than one general-purpose interface
+	in other word, the client should not be forced to depend upon interfaces that they do not use.
+	implement many interfaces, better than implement one interface with all methods
+Dependency inversion principle
+	one should ¡°depend upon abstractions, [not] concretions.¡±
+
+
+design patterns
+creational patterns
+	Singleton	Ensure a class has only one instance, and provide a global point of access to it.
+Structural patterns
+	Decorator	AOP
+	Adapter, Facade, Proxy
+Behavioral patterns
+	Chain of responsibility		Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request.
+	Strategy	Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+	Observer or Publish/subscribe	Define a one-to-many dependency between objects where a state change in one object results in all its dependents being notified and updated automatically.
+	Template method		Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
+module, high cohesion, low coupling

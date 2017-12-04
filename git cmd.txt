@@ -73,6 +73,11 @@ $ git config --global user.name "QiZhong Lin"		//配置git用户名和邮箱
 $ git config --global user.email "qizhong.liin@philips.com"		
 $ git config --unset --global user.email			//移除设置
 
+配置代理
+$ git config --global https.proxy http://165.225.96.34:10015
+$ git config --global http.proxy http://165.225.96.34:10015
+
+
 建立Git版本库：1.从头开始创建，用现有的内容填充它。2.clone已有的版本库
 $ mkdir public_html && cd public_html
 public_html$ git init		//将目录转化为Git版本库
