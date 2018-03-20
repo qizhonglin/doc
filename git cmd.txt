@@ -9,6 +9,17 @@
 5. 在正常模式下要在光標所在位置開始插入文本，請按︰
 	i     輸入必要文本	<ESC>
 
+how to solve the slow access of github?
+http://blog.csdn.net/wu__di/article/details/50538916
+access http://github.global.ssl.fastly.net.ipaddress.com/#ipinfo to get the fast IP for github.global.ssl.fastly.net, then search fast IP for github.com 
+$sudo gedit /etc/hosts
+192.168.xx.xx github.com
+185.31.17.xx github.global.ssl.fastly.net
+
+then update DNS cache
+$ sudo /etc/init.d/nscd restart
+
+
 <GitHub 入门>
 1. Remote Git
 	register username/password
