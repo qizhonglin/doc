@@ -1,55 +1,44 @@
 new concept English
-
+living-room 客厅	dining-room 餐厅
+bedroom 卧室	bathroom 浴室	kitchen 厨房	metre电表
+mattress 床垫	sheet被单	door knob门把手	poo 拉屎
+Egypt 埃及	Mediterranean 地中海	Sydney 悉尼	Miami迈阿密	Caribbean 加勒比海
+April Fools's Day 愚人节
+lemonade 柠檬水	macaroni 通心粉	cod 鳕鱼
+litter baskets 垃圾桶
+beauty spot 风景点
 archaeologists 考古学家
 private expense 自费
 private matter 私事
-beg -> beggar乞丐
-costful 珍贵的
-paycheck 工资 
-a high salary 高工资
-on occasion 有时候
-reply, answer 回答
+paycheck 工资 	a high salary 高工资
+stadium 露天体育场	ticket office 售票处	sold out售完
+sensational news爆料性新闻
 afford 买得起 -> afforadable 
+costful 珍贵的
+reply, answer 回答
+beg -> beggar乞丐	helper 帮手
+headmaster 校长
+on occasion 有时候
 stage 舞台 arena 表演场地
 fly -> flew
-ticket office 售票处
 exclaim, declaim 大声说
-sold out售完
-upset, intransquil 不安的
 railway 铁路 railway station火车站
 wound伤口，创口
 lamp-post 灯杆
-troublesome讨厌的，令人烦恼的
-lemonade 柠檬水
-Egypt 埃及
-living-room 客厅	dining-room 餐厅
-sensational news爆料性新闻
-litter baskets 垃圾桶
-beauty spot 风景点
-stadium 露天体育场
+upset, intransquil 不安的	troublesome讨厌的，令人烦恼的
 sunshine 阳光
-Mediterranean 地中海
 clear conscience（良心） 问心无愧
-butcher 屠夫
-Sydney 悉尼
+butcher 屠夫	gangster强盗	a band of soldier
 unload 卸（货）
-mattress 床垫
 miraculous 奇迹般的
-helper 帮手
 grandson 孙子
 fortune-teller 算命人
 cave 山洞
 seashore 海岸
-door knob门把手
 news bulletin 新闻简报
 busmen 公共汽车司机
-April Fools's Day 愚人节
-macaroni 通心粉
-headmaster 校长
 speedboat 快艇
 alibi 不在场证明
-poo 拉屎
-cod 鳕鱼
 sarcastic 讽刺的，饥笑的
 pedestal 底座
 weight 重物
@@ -286,7 +275,6 @@ I wanna tell you a true story. It happened to a friend of mine a year ago
 I will certainly be more careful 我以后一定会多加注意
 but my boss want me to do some extra work
 
-
 第二册 
 I turned round 我回过头
 the bird covered（越过） the distance in three minutes
@@ -325,20 +313,14 @@ as the oceans have been overfished 过渡捕捞
 underwater tricycle race 水下三轮车比赛
 how did your clothes get into such a mess?
 
-
-
-
-
-
-
-第三册 10
+第三册 17
 felt obliged to investigate 觉得有义务去
 a trail of small animals一串，一系列
 paw print 爪印
 a wild puma had been spotted forty-five miles south of Londa 被发现
 the puma will not attack a human being unless it is cornered 被逼得走投无路
 the search proved difficult, for the puma was often observed at one place in the morning and at another place in the evening
-thsi one must have been in the possession of a private collector 
+this one must have been in the possession of a private collector 
 it is disturbing to think that ...
 
 try to do something 努力做某事
@@ -373,3 +355,22 @@ The monks prefer winter to summer of they have more privacy 清静，隐居
 become submissive 柔顺的
 one of things that fascinates us most about cats is the popular belief that they have nine lives
 high-rise windowsill高层窗槛
+
+colossal 庞大的
+watertight 不漏水的
+compartment （轮船的）密封舱
+float 漂浮
+liner 班船
+narrowly 刚刚地
+hardened 有经验的
+officous 爱管闲事的
+smuggler 走私者
+nostril 鼻孔
+coral 珊瑚
+the officer unscrewed the cap and put the bottle to his nostrils
+ripe fruit 成熟水果
+life on a desert island is wretched 艰苦的
+valiant 英勇的
+pocket money 零用钱
+stick 卡住
+the fire brigade 消防队
