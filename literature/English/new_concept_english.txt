@@ -2,6 +2,8 @@ new concept English
 living-room 客厅	dining-room 餐厅
 bedroom 卧室	bathroom 浴室	kitchen 厨房	metre电表
 mattress 床垫	sheet被单	door knob门把手	poo 拉屎
+in a cardboard box 硬纸板	current 电流
+underclothes 内衣	drawer 抽屉
 Egypt 埃及	Mediterranean 地中海	Sydney 悉尼	Miami迈阿密	Caribbean 加勒比海
 April Fools's Day 愚人节
 lemonade 柠檬水	macaroni 通心粉	cod 鳕鱼
@@ -313,7 +315,7 @@ as the oceans have been overfished 过渡捕捞
 underwater tricycle race 水下三轮车比赛
 how did your clothes get into such a mess?
 
-第三册 17
+第三册 25
 felt obliged to investigate 觉得有义务去
 a trail of small animals一串，一系列
 paw print 爪印
@@ -374,3 +376,34 @@ valiant 英勇的
 pocket money 零用钱
 stick 卡住
 the fire brigade 消防队
+
+oddly 古怪的
+flicker 闪烁
+flash 闪光
+suspension 悬吊	<- suspend 悬挂
+agreeable 宜人的
+the longest suspension bridge in the world 世界上最长的吊桥
+kidnapper 绑架者	ransom赎金
+considerable 相当大的
+take considerable interest in ...
+pay a ransom of $1000
+
+keep his word
+overland 陆上的
+bare 赤裸的
+fame 名声
+bitterly 厉害地
+boxing match拳击比赛
+run (电影等）连映
+lines （剧本中的）台词
+part 剧中的角色
+falter 结巴说
+gaoler 监狱长
+squint 瞄，眯着（眼）看
+octopus 章鱼
+repulsive 令人反感的
+I happened to be walking in my garden when I noticed ...
+your stomach would turn at the idea of ...反胃
+petrify 使惊呆
+A skeleton in the cupboard（碗柜） 家丑
+To varying degrees, we all have secrets which we do not want even our closest friends to learn
