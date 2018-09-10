@@ -9,7 +9,7 @@ April Fools's Day 愚人节
 lemonade 柠檬水	macaroni 通心粉	cod 鳕鱼
 litter baskets 垃圾桶
 beauty spot 风景点
-archaeologists 考古学家
+archaeologists 考古学家	historian 历史学家
 private expense 自费
 private matter 私事
 paycheck 工资 	a high salary 高工资
@@ -27,12 +27,12 @@ exclaim, declaim 大声说
 railway 铁路 railway station火车站
 wound伤口，创口
 lamp-post 灯杆
-upset, intransquil 不安的	troublesome讨厌的，令人烦恼的
+upset, intranquil 不安的	troublesome讨厌的，令人烦恼的
 sunshine 阳光
 clear conscience（良心） 问心无愧
 butcher 屠夫	gangster强盗	a band of soldier
 unload 卸（货）
-miraculous 奇迹般的
+miracle奇迹	miraculous 奇迹般的
 grandson 孙子
 fortune-teller 算命人
 cave 山洞
@@ -170,7 +170,7 @@ as a matter of fact 实际上
 pay extra expense另付费用
 park the car 停车
 be strange at 对...显得外行
-lose some weight 减肥 gain some weight 长胖
+lose some weight 减肥 gain some weight 长胖	decide to go on a diet 决定减肥
 in sight 在视线范围之内 at the sight of 看到
 rich food 油腻的食物
 come home late太晚回家
@@ -195,7 +195,6 @@ take my seat beside her
 I get off the bus 下车
 take A for B误把A当成B
 lose one's way迷路
-decide to go on a diet 决定减肥
 the remains（尸体） of a snake 
 sticky pastry 粘粘的面糊
 I hang up the receiver 挂断电话
@@ -223,78 +222,13 @@ I am fast asleep 睡得很熟
 
 
 
-第一册
-I must end the conversation
-can you accompany me to ...
-I can't hardly bear it
-I won't repeat this kind of error
-don't push me for an answer to your request催促
-are your satisfied with your stay here?您在这里住得满意吗？
-could you deliver my luggage to the airport in advance?可以提前把我行李送到机场吗？
-is there anything valuable in it? 贵重 -> invaluable无价的 <-> inexpensive 便宜的
-our team has entered for the competition 我们队已报名参加比赛
-it makes me sick the way they laugh 他们笑起来的样子叫我恶心
-you are the best in the office, anyone deserve it, you do如果有人该升职的话，那就是你
-we must be hurry now 我们必须快点儿了
-would you give me a lift home tonight让我搭便车
-I am very nervous before I go on the stage上舞台前我很紧张
-the price is beyond my price, I can't afford it
-who is the landlord of this shop?店主
-the shop is owned by my sister 我姐姐开的
-is there any places of interest here? 这儿有什么有意思的地方吗？
-you'd better avoid food containing fat then 最好避免含油脂的食物
-this pattern suits this type of coat 这个图案适合这种外套
-look, the teams are coming onto the field 看，队员们都进场了
-The collections include tea sets, ancient coins, fans, root-carving, rare stone and so on
-这些收藏包括茶具、古钱币、扇子、根雕、奇石等
-a taxi will take you to the restaurant in 15 minutes
-the plane will land soon 着陆 
-the car borke down and we were stranded on a lonely road
-汽车坏了，我们被困在一条偏僻的路上
-the situation's been hanging about for nearly a week 这种状况已经持续了将近一个星期
-The factory was deserted ten years 这家工厂十年前就被废弃了
-he mustn't eat rich food 油腻的食物
-you must be home at half past ten 在家
-can't get home so early 这么早我到不了家
-she lost her way 她迷路了
-I can ask him the way 问路
-can you tell me the way to King Street?
-can you get a pair for me,  please? 给我一双
-these shoes are in fashion now 流行
-I feel awful, I have a terrible toothache 难受极了，牙痛得要命
--Have you ever been there?	你去过那吗
--Yes, I have. I was there in April
--but the weather was awful, it rained all the time
-this house is for sale 这房子要出售
-women always have the last word 女人总是最后说了算的
-We've got plenty of time 我们有大把的时间
-I think I passed in English and Mathematic考过
-I'm sure I've got a low mark
-It doesn't suit me at all 不合适我
--can we buy it on instalments?可以分期付款吗？
--of course, you can pay a deposit（预付定金） of thirty pounds, and then fourteen pounds a month for three years
-I wanna tell you a true story. It happened to a friend of mine a year ago
-I will certainly be more careful 我以后一定会多加注意
-but my boss want me to do some extra work
-
 第二册 
 I turned round 我回过头
-the bird covered（越过） the distance in three minutes
-everybody enters for 'The nicest Garden Competition' each year 参加
-he gets a good salary, but he always borrows money from his friends and never pays it back
-as usual, the police will be trying to keep order 维持秩序
-I had an amusing experience last year, ...one the way, a young man waved to me, I stopped and he asked me for a lift
-Apart from a few words, I don't know any French at all 
-I looked for my bag, I had left it on a chair beside the door 找我的提包，曾把它放在门边的椅子上
-they drove away the little dog 赶走
-passing planes can be heard night and day 过往飞机日夜不绝于耳
-we like them in the same way that we like ...
-they told stories by the campfire在篝火旁讲起了故事
-the house by the lake is a restaurant 
-I don't trust those slick salesmen油嘴滑舌的
-he took her into his service 他雇她做他的保姆
 I turned to look at the children, but there weren't any in sight
 我转过头去看那些孩子，但一个也不见
+the bird covered（越过） the distance in three minutes
+I don't trust those slick salesmen油嘴滑舌的
+he took her into his service 他雇她做他的保姆
 my wife was wearing a hat that looked like a lighthouse 灯塔 
 take a great many photographs of the mountains
 right from the start there was trouble with ...从最开始...就有问题
@@ -315,7 +249,7 @@ as the oceans have been overfished 过渡捕捞
 underwater tricycle race 水下三轮车比赛
 how did your clothes get into such a mess?
 
-第三册 34
+第三册 40
 felt obliged to investigate 觉得有义务去
 a trail of small animals一串，一系列
 paw print 爪印
@@ -438,6 +372,49 @@ scour 彻底搜索
 submarine 潜水艇
 naval 海军的
 prelude 序幕，前奏
-crockery 陶器
+crockery 陶器	ratity 稀世珍品
 windscreen 挡风玻璃
-
+forbidding 望而生畏的
+muster 鼓起
+pretentious 自命不凡的
+labyrinth 迷宫，难解的题目
+musty 发霉的
+assorted 各式各样的
+junk 废品	litter 垃圾
+prise 撬开	
+dagger 短剑
+no one has to muster up courage to enter... 鼓起勇气
+people bent on violence 倾向于暴力的人
+like a scientist bent on making a discovery, he must cherish the hope that ...
+arduous 艰巨的
+his father meted out punishment with a slipper 用一只拖鞋来进行处罚
+premises 经营场所；前提
+muffle 捂住
+credulous 轻信的
+downfall 垮台
+the brothers were reunited 重聚
+dislocate v. 打乱(计划等)
+reflect 细想
+dawdle 磨蹭，慢吞吞地动或做
+chug it 快喝
+lodge a complaint/protest/appeal etc 提出投诉/抗议/上诉
+conduct an experiment/a test 做试验
+conduct a survey/investigation/review etc 进行调查
+ After years of conditioning, most of us have developed an unshakable faith in railway timetables. 
+经过多年的适应，大多数人对火车时刻表产生了一种不可动摇的信念
+ the journey lasted mere hour and seventeen minutes.旅途总共才需1小时17分钟
+When I boarded the train, I could not help noticing that a great many local people got on as well
+上车后，我不禁注意到许多当地人也上了车
+scanty 贫乏的
+a tool shed 工具棚	a cattle shed 牛棚
+engrave 雕刻
+boulder 大石块
+a five-foot deep pit 五英尺深的坑
+swerve 急转变
+scoop 挖出
+ominously 不吉利地
+fissure （石、地的）深缝	crack 缝隙；高明的
+renew 重复
+astride 骑，跨
+zigzag “之”字形
+grind 磨擦
