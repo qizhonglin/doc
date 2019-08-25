@@ -1548,17 +1548,3 @@ whatever you think is fine with me我随你
 that key will come in handy（方便） if you lock yourslef out
 
 
-
-专业术语
-intra-cranial bleeds 颅内出血
-arrhythmia 心律失常
-AKI: acute kidney injury 		<- AKIN (Acute Kidney Injury Network)	CG
-PICU: pediatric(儿科的) intensive care unit	<- PEWS (Pediatric Early Warning Score)
-hemodynamic instability 血液动力学
-risk stratification 风险分级
-common syndrome 临床综合症
-mortality and morbidity 死亡率和发病率
-physiologic vital sign information 生理
-electronic surveillance（监督） tool
-serun 血清 urine 尿
-postoperative complication 术后并发症
