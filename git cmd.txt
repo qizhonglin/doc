@@ -63,6 +63,18 @@ $ sudo /etc/init.d/nscd restart
 new repository in Github
 git remote add origin https://github.com/qizhonglin/lirads.git
 git push -u origin master	
+
+7. ignore files, only submit selected files
+a)create file .gitignore
+__pycache__/		ignore any directory called __pycache__/ in any subdirectory
+build/ 
+
+b) if the repository already exists, do the following:
+git rm -r --cached .
+git add .
+git commit -m "..."
+git push 
+
 	
 Tool: GitHub Desktop	
 a. Install GitHub Desktop
