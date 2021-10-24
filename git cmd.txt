@@ -97,8 +97,8 @@ $ git config --global user.email "qizhong.liin@philips.com"
 $ git config --unset --global user.email			//移除设置
 
 配置代理
-$ git config --global https.proxy http://165.225.96.34:10015
-$ git config --global http.proxy http://165.225.96.34:10015
+$ git config --global https.proxy http://185.46.212.34:10015
+$ git config --global http.proxy http://185.46.212.34:10015
 
 
 建立Git版本库：1.从头开始创建，用现有的内容填充它。2.clone已有的版本库
