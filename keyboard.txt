@@ -1,2 +1,0 @@
-IntelliJ:
-Alt+F12		open terminal
